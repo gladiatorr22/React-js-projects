@@ -10,7 +10,12 @@ function App() {
   const addValue = ()=>{
     console.log(counter);
     //counter =  counter + 1
-    setCounter(counter+1)
+    // setCounter(counter+1) since they are same all of them will be sent in batch and will only be executed once although there are 3 set counter commands
+    // setCounter(counter+1)
+    // setCounter(counter+1)
+    setCounter(counter=>counter+1) //to separately update them , and not in batches , we use this method where setcounter takes a call bank func and then updates the counter
+    setCounter(counter=>counter+1)
+    setCounter(counter=>counter+1)
   }
 
   const decreasevalue = ()=>{
