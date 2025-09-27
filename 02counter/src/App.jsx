@@ -6,6 +6,7 @@ function App() {
 
   const [counter,setCounter] = useState(15)
   //let counter = 5
+  
   const addValue = ()=>{
     console.log(counter);
     //counter =  counter + 1
