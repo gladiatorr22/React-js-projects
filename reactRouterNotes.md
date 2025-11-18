@@ -1,4 +1,4 @@
-# all raw html css file for react router video
+<!-- /*# all raw html css file for react router video
 
 ## header component
 
@@ -52,10 +52,6 @@ export default function Header() {
         </header>
     );
 }
-
-
-```
-
 
 ## Footer component
 
@@ -219,10 +215,6 @@ export default function Footer() {
         </footer>
     );
 }
-
-```
-
-
 ## Home component
 
 ```javascript
@@ -449,8 +441,4 @@ export default function Contact() {
             </div>
         </div>
     );
-}
-
-```
-
-
+} -->
